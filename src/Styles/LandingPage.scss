@@ -1,0 +1,62 @@
+@import 'variable';
+
+@include md {
+    .langing {
+        .landing--grids {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            .landing--grid {
+                width: 30%;
+                background: $white;
+                margin: 15px;
+                border-radius: 5px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+                .stars {
+                    margin: 10px;
+                    display: flex;
+                    svg {
+                        color: $Pcolor;
+                    }
+                    span {
+                        margin-left: 5px;
+                    }
+                }
+                .title {
+                    color: $Pcolor;
+                    margin: 10px;
+
+                }
+                .other-info {
+                    margin: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    label {
+                        width: 50%;
+                        margin-bottom: 20px;
+                        p {
+                            font-weight: bold;
+                        }
+                        &:last-child {
+                            width: 100%;
+                            margin: 0;
+                            display: flex;
+                            flex-wrap: wrap;
+                            span {
+                                padding: 6px 10px;
+                                border: 2px solid $Pcolor;
+                                border-radius: 25px;
+                                margin-right: 5px;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@include md {
+    header {
+        height: 64px;
+        width: 100%;
+        background-color: $white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbar {
+            width: 100%;
+            padding: 0 20px;
+            .nav-center {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .nav-header {
+                    .nav-btn {
+                        display: none;
+                    }
+                }
+                .login-lang {
+                    display: flex;
+                    button {
+                        border: 0;
+                        font-size: 16px;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        .avatar-icon {
+                            font-size: 24px;
+                            display: inherit;
+                            color: $Pcolor;
+                        }
+                        .name-email {
+                            padding: 0 10px;
+                        }
+                        .dropdown {
+                            display: inherit;
+                        }
+                        &.lang-flag {
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

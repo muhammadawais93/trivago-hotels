@@ -1,0 +1,372 @@
+{
+    "hotels": [
+        {
+            "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
+            "name": "Developer-friendly hotel",
+            "description": "Hendrerit reiciendis officia quae cupiditate praesent lacus sollicitudin nostra at pariatur consectetur.",
+            "distance_to_venue": "800",
+            "rating": "4.6",
+            "price_category": "medium",
+            "amenities": [
+                "free_parking",
+                "free_wifi"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+                    "name": "Deluxe suite",
+                    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+                    "max_occupancy": "4",
+                    "price_in_usd": "78.90"
+                },
+                {
+                    "id": "36eebb5c-c9d8-475d-904b-b09301e609c9",
+                    "name": "Wow Suite",
+                    "description": "Porttitor reiciendis dolore fames aliquip congue iure assumenda laoreet praesentium.",
+                    "max_occupancy": "2",
+                    "price_in_usd": "45.80"
+                },
+                {
+                    "id": "66c7db46-eb28-4154-88fd-bcc4369cd2a1",
+                    "name": "Wonderful Sky Room",
+                    "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
+                    "max_occupancy": "5",
+                    "price_in_usd": "99.99"
+                },
+                {
+                    "id": "7e2a3cd8-f5ae-4746-ac98-b2b7c8a07aaf",
+                    "name": "Studio Suite",
+                    "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "24.90"
+                }
+            ]
+        },
+        {
+            "id": "78669a93-b1e1-4bf0-9ad7-d4efc3d59af4",
+            "name": "Central Park West Hostel",
+            "description": "Voluptatum magnis dolorum, curae aut porro. Quisque excepteur inventore sociosqu consectetur sint laudantium.",
+            "distance_to_venue": "650",
+            "rating": "4.2",
+            "price_category": "medium",
+            "amenities": [
+                "free_parking",
+                "free_wifi",
+                "pets",
+                "restaurant"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "e4fffcf6-5b79-40e1-a3f5-831a09f59f7a",
+                    "name": "Extreme Wow Suite",
+                    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+                    "max_occupancy": "4",
+                    "price_in_usd": "78.90"
+                },
+                {
+                    "id": "1fd3f504-e914-4f2f-88cc-b122789a187a",
+                    "name": "Cozy Room",
+                    "description": "Porttitor reiciendis dolore fames aliquip congue iure assumenda laoreet praesentium.",
+                    "max_occupancy": "2",
+                    "price_in_usd": "45.80"
+                },
+                {
+                    "id": "63f82a61-2e7a-4f39-89c4-db5f9eb467cf",
+                    "name": "Wonderful Sky Room",
+                    "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
+                    "max_occupancy": "5",
+                    "price_in_usd": "99.99"
+                },
+                {
+                    "id": "ebfe406d-0f97-4e9f-abee-fc7d86142304",
+                    "name": "Fabulous Room",
+                    "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "24.90"
+                },
+                {
+                    "id": "c9b643f5-eb23-4447-aeaa-ac647b9dfcd3",
+                    "name": "Cool Corner Suite",
+                    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+                    "max_occupancy": "2",
+                    "price_in_usd": "40.60"
+                }
+            ]
+        },
+        {
+            "id": "d53d13e5-f357-41a2-9968-727a1b481288",
+            "name": "Broadway Hotel And Hostel",
+            "description": "Saepe ratione luctus, distinctio sequi, nascetur leo. Eaque, interdum. Sociis? Ultricies aliquip.",
+            "distance_to_venue": "400",
+            "rating": "3.6",
+            "price_category": "low",
+            "amenities": [
+                "free_parking",
+                "free_wifi",
+                "restaurant"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "f8cb7e3c-5234-4be4-8d1c-a60c7a46cd8d",
+                    "name": "Spectacular Suite",
+                    "description": "Ea, duis augue pulvinar aenean, quos porttitor eleifend.",
+                    "max_occupancy": "3",
+                    "price_in_usd": "19.90"
+                },
+                {
+                    "id": "59c09b6a-dc8f-4c27-90d9-a1a346acad3e",
+                    "name": "Extreme Wow Suite",
+                    "description": "Occaecat molestiae pharetra consequat ridiculus voluptates quam, illo.",
+                    "max_occupancy": "4",
+                    "price_in_usd": "29.90"
+                }
+            ]
+        },
+        {
+            "id": "de44742c-a5ad-473e-95bc-8ac3584b09fe",
+            "name": "Blue Moon Boutique Hotel",
+            "description": "Saepe ratione luctus, distinctio sequi, nascetur leo. Eaque, interdum. Sociis? Ultricies aliquip.",
+            "distance_to_venue": "950",
+            "rating": "4.9",
+            "price_category": "high",
+            "amenities": [
+                "free_parking",
+                "free_wifi",
+                "pets",
+                "restaurant",
+                "gym",
+                "pool",
+                "spa"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "bff001d5-93c8-4c48-802b-0f8282031a0d",
+                    "name": "Extreme Wow Suite",
+                    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+                    "max_occupancy": "4",
+                    "price_in_usd": "125.50"
+                },
+                {
+                    "id": "25bf4ece-5673-47a0-bf57-7a55a5c41695",
+                    "name": "Cool Corner Suite",
+                    "description": "Porttitor reiciendis dolore fames aliquip congue iure assumenda laoreet praesentium.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "49.90"
+                },
+                {
+                    "id": "c81a96c6-09fa-4b7b-a835-ebc5562d20c7",
+                    "name": "Wonderful Sky Room",
+                    "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
+                    "max_occupancy": "5",
+                    "price_in_usd": "169.90"
+                },
+                {
+                    "id": "3a2b4603-e462-40f5-95c9-3711cec24a18",
+                    "name": "Fabulous Room",
+                    "description": "Rutrum platea tempora montes voluptas ex rerum morbi.",
+                    "max_occupancy": "3",
+                    "price_in_usd": "99.90"
+                },
+                {
+                    "id": "e08ceab7-cc1c-43e3-9662-1c86da57b641",
+                    "name": "Cool Corner Suite",
+                    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+                    "max_occupancy": "2",
+                    "price_in_usd": "79.90"
+                },
+                {
+                    "id": "34819fe8-c208-42fc-aa70-f4152eac7158",
+                    "name": "Studio Suite",
+                    "description": "Egestas consectetur soluta distinctio fugiat malesuada, sint voluptatibus.",
+                    "max_occupancy": "8",
+                    "price_in_usd": "249.90"
+                }
+            ]
+        },
+        {
+            "id": "3fcdd77a-e4f4-4351-af37-be73c5180a8f",
+            "name": "Hotel Pennsylvania",
+            "description": "Eaque ridiculus exercitation occaecat! Dolor officia? Dictum tempore.",
+            "distance_to_venue": "300",
+            "rating": "4.7",
+            "price_category": "high",
+            "amenities": [
+                "free_parking",
+                "free_wifi",
+                "pets",
+                "restaurant",
+                "gym",
+                "pool"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "ef588718-1b11-4e52-bc04-831e1487a8d9",
+                    "name": "Cozy Room",
+                    "description": "Quasi ex sequi, integer feugiat deleniti pulvinar, odio.",
+                    "max_occupancy": "4",
+                    "price_in_usd": "119.50"
+                },
+                {
+                    "id": "6aff42e5-2bf8-4da0-bcba-6b0ddcfd7e2a",
+                    "name": "Cool Corner Suite",
+                    "description": "Phasellus consequuntur? Vulputate dictum augue do, dictum luctus.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "39.90"
+                },
+                {
+                    "id": "c3424d4f-a8f1-4635-b614-01bd8fc0d417",
+                    "name": "Wonderful Sky Room",
+                    "description": "Nobis odit nullam doloremque dis lacus iure proident.",
+                    "max_occupancy": "5",
+                    "price_in_usd": "149.90"
+                },
+                {
+                    "id": "0b2ed43f-ca56-4787-aec2-43b97748a712",
+                    "name": "Fabulous Room",
+                    "description": "Quos iste odit cras saepe ipsa lacus mollitia.",
+                    "max_occupancy": "3",
+                    "price_in_usd": "89.50"
+                },
+                {
+                    "id": "62c1612e-247c-4ec6-9c77-e8ba5a6b31a0",
+                    "name": "Cool Corner Suite",
+                    "description": "Repudiandae consectetuer fugiat corporis quod quaerat imperdiet cras.",
+                    "max_occupancy": "2",
+                    "price_in_usd": "55.50"
+                }
+            ]
+        },
+        {
+            "id": "50d254ad-40b2-4bed-bf5e-e712e0621706",
+            "name": "The Watson Hotel",
+            "description": "Ipsa. Voluptates laoreet, quibusdam corporis, nesciunt, habitasse deserunt.",
+            "distance_to_venue": "550",
+            "rating": "4.1",
+            "price_category": "low",
+            "amenities": [
+                "free_wifi",
+                "pets",
+                "restaurant"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "fbaffb50-16fd-4b83-8780-a30e77dfe3f9",
+                    "name": "Cool Corner Suite",
+                    "description": "Repudiandae accusamus qui iste est eu, qui pretium.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "19.90"
+                },
+                {
+                    "id": "2964a277-24b9-4f35-b2ee-9ae290fd03ae",
+                    "name": "Cozy Room",
+                    "description": "Morbi ridiculus commodo sapien tempus magnam! Excepturi, provident.",
+                    "max_occupancy": "3",
+                    "price_in_usd": "49.50"
+                },
+                {
+                    "id": "b867bfe3-ae80-4f56-9303-58c1c6f482f4",
+                    "name": "Wonderful Sky Room",
+                    "description": "Asperiores impedit ducimus, purus cum, cupiditate assumenda feugiat.",
+                    "max_occupancy": "5",
+                    "price_in_usd": "78.90"
+                }
+            ]
+        },
+        {
+            "id": "cdd9d47b-ab8c-48d8-bded-1b307750842d",
+            "name": "OYO Times Square",
+            "description": "Maxime impedit exercitationem hymenaeos voluptate occaecati ducimus convallis.",
+            "distance_to_venue": "450",
+            "rating": "3.2",
+            "price_category": "low",
+            "amenities": [
+                "free_wifi",
+                "restaurant"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "0d56c17a-b7e1-4cbf-85a0-02369a50a1eb",
+                    "name": "Fabulous Room",
+                    "description": "Eiusmod sint iure deleniti, imperdiet necessitatibus eleifend. Magna.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "16.90"
+                },
+                {
+                    "id": "e90b8a7a-b814-4921-b1d5-dbec2aa7f10b",
+                    "name": "Cozy Room",
+                    "description": "Facilisis illum, doloremque mattis, ultricies conubia, nulla tempus.",
+                    "max_occupancy": "3",
+                    "price_in_usd": "36.90"
+                }
+            ]
+        },
+        {
+            "id": "393fd44d-5aed-492c-b160-2d2c25295d6b",
+            "name": "Iure taciti earum rerum arcu magni placerat sagittis.",
+            "description": "Semper platea? Exercitation urna officia iusto non ullamco.",
+            "distance_to_venue": "980",
+            "rating": "3.4",
+            "price_category": "low",
+            "amenities": [
+                "free_wifi",
+                "restaurant"
+            ],
+            "images": [
+                "http://via.placeholder.com/140x100",
+                "http://via.placeholder.com/100x140",
+                "http://via.placeholder.com/140x140"
+            ],
+            "rooms": [
+                {
+                    "id": "bcca0682-51f4-4c3a-8b38-bd96e6806170",
+                    "name": "Fabulous Room",
+                    "description": "Eiusmod iure deleniti, imperdiet necessitatibus eleifend. Magna.",
+                    "max_occupancy": "1",
+                    "price_in_usd": "18.90"
+                },
+                {
+                    "id": "d7264985-53fa-4b0e-a42b-efc14c67b653",
+                    "name": "Cool Corner Suite",
+                    "description": "Facilisis illum, doloremque mattis, ultricies conubia tempus.",
+                    "max_occupancy": "2",
+                    "price_in_usd": "32.90"
+                }
+            ]
+        }
+    ]
+}

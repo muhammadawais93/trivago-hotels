@@ -1,0 +1,16 @@
+@import 'variable';
+
+@include md {
+    .landing--filter {
+        margin: 0 15px;
+        .filter--form {
+            display: flex;
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                margin: 20px;
+            }
+        }
+    }
+}
