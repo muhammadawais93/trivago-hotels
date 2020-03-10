@@ -6,24 +6,24 @@ import '../Styles/HotelDetail.scss';
 
 const HotelDetail = (props) => {
     const HotelContext = useContext(TrivagoContext);
-    const { getHotel } = HotelContext;
-    const SingleHotel = getHotel(props.match.params.id); console.log(SingleHotel);
+    const { getHotel, MoreRooms, handlerClick } = HotelContext;
+    const SingleHotel = getHotel(props.match.params.id);
     return (
         <>
             {SingleHotel &&
                 <section className="container">
                     <div className="hotel-detail">
                         <div className="display-imgs">
-                            {SingleHotel.images.map(image => (
-                                <img src={image} alt="hotel" />
+                            {SingleHotel.images.map((image, index) => (
+                                <img src={image} alt="hotel" key={index} />
                             ))}
                         </div>
-                        <div class="single-hotel-info">
-                            <article class="desc">
+                        <div className="single-hotel-info">
+                            <article className="desc">
                                 <h3>{SingleHotel.name}</h3>
                                 <p>{SingleHotel.description}</p>
                             </article>
-                            <article class="info">
+                            <article className="info">
                                 <h3>Info</h3>
                                 {SingleHotel.price_category === 'low' &&
                                     <div className="stars">
@@ -49,6 +49,31 @@ const HotelDetail = (props) => {
                                     {SingleHotel.amenities.map((amenity, index) => <span className="landing--amenity" key={index}>{amenity}</span>)}
                                 </div>
                             </article>
+                        </div>
+                    </div>
+                    <div className="rooms-wrap">
+                        <h2>Available Rooms</h2>
+                        <div className="room-list">
+                            {SingleHotel.rooms.map(room => (
+                                <div id={room.id} className="room" key={room.id}>
+                                    <h3>{room.name}</h3>
+                                    <p>{room.description}</p>
+                                    <div className="occupancy">Capacity: <span>{room.max_occupancy} Persons</span></div>
+                                    <div className="occupancy">Price: <span>{room.price_in_usd}$</span></div>
+                                </div>
+                            ))}
+                            {MoreRooms && SingleHotel.moreRoom.map(room => (
+                                <div id={room.id} className="room" key={room.id}>
+                                    <h3>{room.name}</h3>
+                                    <p>{room.description}</p>
+                                    <div className="occupancy">Capacity: <span>{room.max_occupancy} Persons</span></div>
+                                    <div className="occupancy">Price: <span>{room.price_in_usd}$</span></div>
+                                </div>
+                            ))}
+                            {MoreRooms ? 
+                                <button onClick={handlerClick}>Less Rooms</button>:
+                                <button onClick={handlerClick}>More Rooms</button>
+                            }
                         </div>
                     </div>
                 </section>

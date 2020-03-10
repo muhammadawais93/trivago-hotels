@@ -16,7 +16,7 @@
             .single-hotel-info {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-column-gap: 2rem;
+                grid-column-gap: 6rem;
                 margin: 2rem auto;
                 font-size: 20px;
                 .desc {
@@ -29,7 +29,6 @@
                     }
                 }
                 .info {
-                    padding-left: 40px;
                     h3 {
                         color: $Pcolor;
                     }
@@ -57,6 +56,38 @@
                             margin-top: 5px;
                         }
                     }
+                }
+            }
+        }
+        .rooms-wrap {
+            h2 {
+                font-size: 26px;
+            }
+            .room-list {
+                font-size: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .room {
+                    background: $white;
+                    padding: 15px;
+                    border-radius: 5px;
+                    margin: 10px 0;
+                    width: calc((50% - 20px));
+                    h3, p, div {
+                        margin: 10px 0;
+                    }
+                    h3 {
+                        color: $Pcolor;
+                    }
+                }
+                button {
+                    margin: 30px auto;
+                    padding: 10px 50px;
+                    border: 2px solid #ff690f;
+                    border-radius: 25px;
+                    font-size: 20px;
+                    cursor: pointer;
                 }
             }
         }

@@ -14,16 +14,18 @@ class TrivagoProvider extends Component {
         PriceMin: 0,
         PriceMax: 0,
         PriceCategory: '',
-        Amenities: {}
+        Amenities: {},
+        MoreRooms: false
     };
 
     componentDidMount() {
+        console.log(process.env.REACT_APP_API_URL);
         this.fetchHotels();
     }
 
     fetchHotels = async () => {
         try {
-            await fetch(`http://localhost:3012/hotels`)
+            await fetch(`${process.env.REACT_APP_API_URL}/hotels`)
                 .then(response => response.json())
                 .then(hotels => {
 
@@ -59,6 +61,7 @@ class TrivagoProvider extends Component {
         }
     }
 
+    //relate to listing and filter
     handleChange = event => {
         //event.preventDefault();
         const target = event.target;
@@ -109,16 +112,26 @@ class TrivagoProvider extends Component {
         this.setState({ SortedHotels: filterHotel });
     }
 
+    //hotel detail page
     getHotel = id => {
-        let tempHotel = [...this.state.Hotels];
-        let hotel = tempHotel.find(hotel => hotel.id === id);
-        hotel = hotel && { ...hotel, rooms: hotel.rooms.slice(2) };
-        return hotel;
+        if(this.state.Hotels.length) {
+            let tempHotel = [...this.state.Hotels];
+            let hotel = tempHotel.find(hotel => hotel.id === id);
+            //sorting rooms by price
+            let rooms = hotel.rooms.sort((a, b) => parseFloat(a.price_in_usd) - parseFloat(b.price_in_usd));
+
+            hotel = { ...hotel, rooms: rooms.slice(0, 2), moreRoom: rooms.slice(2) };
+            return hotel;
+        }
+    }
+
+    handlerClick = () => {
+        this.setState({ MoreRooms: !this.state.MoreRooms });
     }
 
     render() {
         return (
-            <TrivagoContext.Provider value={{ ...this.state, getHotel: this.getHotel, handleChange: this.handleChange }}>
+            <TrivagoContext.Provider value={{ ...this.state, getHotel: this.getHotel, handlerClick: this.handlerClick, handleChange: this.handleChange }}>
                 {this.props.children}
             </TrivagoContext.Provider>
         );
