@@ -3,7 +3,7 @@
         {
             "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
             "name": "Developer-friendly hotel",
-            "description": "Hendrerit reiciendis officia quae cupiditate praesent lacus sollicitudin nostra at pariatur consectetur.",
+            "description": "Nulla tempor placerat aptent quos quas cupidatat fringilla justo dis! Metus adipiscing ipsam quod venenatis egestas tenetur cupiditate proin similique maecenas minima iure corrupti repellendus.",
             "distance_to_venue": "800",
             "rating": "4.6",
             "price_category": "medium",
@@ -12,9 +12,9 @@
                 "free_wifi"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -43,14 +43,14 @@
                     "name": "Studio Suite",
                     "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
                     "max_occupancy": "1",
-                    "price_in_usd": "24.90"
+                    "price_in_usd": "31.90"
                 }
             ]
         },
         {
             "id": "78669a93-b1e1-4bf0-9ad7-d4efc3d59af4",
             "name": "Central Park West Hostel",
-            "description": "Voluptatum magnis dolorum, curae aut porro. Quisque excepteur inventore sociosqu consectetur sint laudantium.",
+            "description": "Congue auctor tortor nulla sociis molestiae, in diam primis repellat, eum tempora perferendis. Dictumst qui excepturi autem senectus ad sagittis primis tempora qui augue ad.",
             "distance_to_venue": "650",
             "rating": "4.2",
             "price_category": "medium",
@@ -61,9 +61,9 @@
                 "restaurant"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -92,7 +92,7 @@
                     "name": "Fabulous Room",
                     "description": "Tempora laudantium pellentesque. Nostra morbi! Felis? Sint aliquip.",
                     "max_occupancy": "1",
-                    "price_in_usd": "24.90"
+                    "price_in_usd": "54.90"
                 },
                 {
                     "id": "c9b643f5-eb23-4447-aeaa-ac647b9dfcd3",
@@ -106,7 +106,7 @@
         {
             "id": "d53d13e5-f357-41a2-9968-727a1b481288",
             "name": "Broadway Hotel And Hostel",
-            "description": "Saepe ratione luctus, distinctio sequi, nascetur leo. Eaque, interdum. Sociis? Ultricies aliquip.",
+            "description": "Eius veritatis, conubia sapien, augue dictumst quam earum sint tellus, possimus eveniet cillum tempor dictumst pretium eget dolores, mollit culpa, sem illo, ridiculus eleifend incidunt.",
             "distance_to_venue": "400",
             "rating": "3.6",
             "price_category": "low",
@@ -116,9 +116,9 @@
                 "restaurant"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -140,7 +140,7 @@
         {
             "id": "de44742c-a5ad-473e-95bc-8ac3584b09fe",
             "name": "Blue Moon Boutique Hotel",
-            "description": "Saepe ratione luctus, distinctio sequi, nascetur leo. Eaque, interdum. Sociis? Ultricies aliquip.",
+            "description": "Hic aliquam orci ex aliquet do ducimus, dis wisi vulputate massa cupidatat. Laboris rutrum! Ea nulla perspiciatis fames, eos mauris morbi, ratione viverra maiores asperiores.",
             "distance_to_venue": "950",
             "rating": "4.9",
             "price_category": "high",
@@ -154,9 +154,9 @@
                 "spa"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -171,7 +171,7 @@
                     "name": "Cool Corner Suite",
                     "description": "Porttitor reiciendis dolore fames aliquip congue iure assumenda laoreet praesentium.",
                     "max_occupancy": "1",
-                    "price_in_usd": "49.90"
+                    "price_in_usd": "64.90"
                 },
                 {
                     "id": "c81a96c6-09fa-4b7b-a835-ebc5562d20c7",
@@ -206,7 +206,7 @@
         {
             "id": "3fcdd77a-e4f4-4351-af37-be73c5180a8f",
             "name": "Hotel Pennsylvania",
-            "description": "Eaque ridiculus exercitation occaecat! Dolor officia? Dictum tempore.",
+            "description": "Error, habitant? Potenti adipisicing distinctio harum cupiditate ultricies irure minima scelerisque praesent facilisis nam praesent rhoncus, doloribus, condimentum sociosqu eum mus maecenas, adipisci sequi? Praesent.",
             "distance_to_venue": "300",
             "rating": "4.7",
             "price_category": "high",
@@ -219,9 +219,9 @@
                 "pool"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -229,14 +229,14 @@
                     "name": "Cozy Room",
                     "description": "Quasi ex sequi, integer feugiat deleniti pulvinar, odio.",
                     "max_occupancy": "4",
-                    "price_in_usd": "119.50"
+                    "price_in_usd": "155.50"
                 },
                 {
                     "id": "6aff42e5-2bf8-4da0-bcba-6b0ddcfd7e2a",
                     "name": "Cool Corner Suite",
                     "description": "Phasellus consequuntur? Vulputate dictum augue do, dictum luctus.",
                     "max_occupancy": "1",
-                    "price_in_usd": "39.90"
+                    "price_in_usd": "89.90"
                 },
                 {
                     "id": "c3424d4f-a8f1-4635-b614-01bd8fc0d417",
@@ -250,21 +250,21 @@
                     "name": "Fabulous Room",
                     "description": "Quos iste odit cras saepe ipsa lacus mollitia.",
                     "max_occupancy": "3",
-                    "price_in_usd": "89.50"
+                    "price_in_usd": "99.50"
                 },
                 {
                     "id": "62c1612e-247c-4ec6-9c77-e8ba5a6b31a0",
                     "name": "Cool Corner Suite",
                     "description": "Repudiandae consectetuer fugiat corporis quod quaerat imperdiet cras.",
                     "max_occupancy": "2",
-                    "price_in_usd": "55.50"
+                    "price_in_usd": "59.50"
                 }
             ]
         },
         {
             "id": "50d254ad-40b2-4bed-bf5e-e712e0621706",
             "name": "The Watson Hotel",
-            "description": "Ipsa. Voluptates laoreet, quibusdam corporis, nesciunt, habitasse deserunt.",
+            "description": "Error, habitant? Potenti adipisicing distinctio harum cupiditate ultricies irure minima scelerisque praesent facilisis nam praesent rhoncus, doloribus, condimentum sociosqu eum mus maecenas, adipisci sequi? Praesent.",
             "distance_to_venue": "550",
             "rating": "4.1",
             "price_category": "low",
@@ -274,9 +274,9 @@
                 "restaurant"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -291,21 +291,21 @@
                     "name": "Cozy Room",
                     "description": "Morbi ridiculus commodo sapien tempus magnam! Excepturi, provident.",
                     "max_occupancy": "3",
-                    "price_in_usd": "49.50"
+                    "price_in_usd": "29.50"
                 },
                 {
                     "id": "b867bfe3-ae80-4f56-9303-58c1c6f482f4",
                     "name": "Wonderful Sky Room",
                     "description": "Asperiores impedit ducimus, purus cum, cupiditate assumenda feugiat.",
                     "max_occupancy": "5",
-                    "price_in_usd": "78.90"
+                    "price_in_usd": "55.90"
                 }
             ]
         },
         {
             "id": "cdd9d47b-ab8c-48d8-bded-1b307750842d",
             "name": "OYO Times Square",
-            "description": "Maxime impedit exercitationem hymenaeos voluptate occaecati ducimus convallis.",
+            "description": "Error, habitant? Potenti adipisicing distinctio harum cupiditate ultricies irure minima scelerisque praesent facilisis nam praesent rhoncus, doloribus, condimentum sociosqu eum mus maecenas, adipisci sequi? Praesent.",
             "distance_to_venue": "450",
             "rating": "3.2",
             "price_category": "low",
@@ -314,9 +314,9 @@
                 "restaurant"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {
@@ -338,7 +338,7 @@
         {
             "id": "393fd44d-5aed-492c-b160-2d2c25295d6b",
             "name": "Iure taciti earum rerum arcu magni placerat sagittis.",
-            "description": "Semper platea? Exercitation urna officia iusto non ullamco.",
+            "description": "Error, habitant? Potenti adipisicing distinctio harum cupiditate ultricies irure minima scelerisque praesent facilisis nam praesent rhoncus, doloribus, condimentum sociosqu eum mus maecenas, adipisci sequi? Praesent.",
             "distance_to_venue": "980",
             "rating": "3.4",
             "price_category": "low",
@@ -347,9 +347,9 @@
                 "restaurant"
             ],
             "images": [
-                "http://via.placeholder.com/140x100",
-                "http://via.placeholder.com/100x140",
-                "http://via.placeholder.com/140x140"
+                "https://images.ctfassets.net/ay9vwaxoodig/2ebEAassDJrcliTp8SqnPc/da0f5cd11c65ef571bb91e0ef73ba309/room-7.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/1REi4fCQ8E6OKRuLbcnDlu/e9b0dc6a71f07542fd02e359429eac76/details-4.jpeg",
+                "https://images.ctfassets.net/ay9vwaxoodig/4LiKSo88bCILNy8DGv1bmu/d987c2ca9a5bd0114314cc2b35c4015c/room-10.jpeg"
             ],
             "rooms": [
                 {

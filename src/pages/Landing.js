@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { FaStar } from 'react-icons/fa';
 import { TrivagoContext } from '../ContextAPI';
 import HotelFilter from '../components/HotelFilter';
+import { Link } from "react-router-dom";
 import '../Styles/LandingPage.scss';
 
 class LandingPage extends Component {
@@ -12,10 +13,11 @@ class LandingPage extends Component {
                 <TrivagoContext.Consumer>
                     {context => {
                         let hotels = context.SortedHotels;
+                        // console.log(hotels);
                         return (
                             <div className="landing--grids">
                                 {hotels.map((hotel, index) =>
-                                    <div id={`hotel-${index}`} className="landing--grid" key={`hotel-${index}`}>
+                                    <div id={hotel.id} className="landing--grid" key={hotel.id}>
                                         <span><img src={hotel.images[0]} alt="hotels" /></span>
 
                                         {hotel.price_category === 'low' &&
@@ -37,7 +39,7 @@ class LandingPage extends Component {
                                             </div>
                                         }
 
-                                        <h3 className="title">{hotel.name}</h3>
+                                        <h3 className="title"><Link to={`/hotel/${hotel.id}`}>{hotel.name}</Link></h3>
                                         <div className="other-info">
                                             <label>
                                                 <span>Distance from Venue</span>

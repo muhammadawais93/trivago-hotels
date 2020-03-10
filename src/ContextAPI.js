@@ -38,7 +38,7 @@ class TrivagoProvider extends Component {
                     //get all indiviual amenities
                     let Amenities = [...new Set([].concat(...hotels.map(hotel => hotel.amenities)))];
                     Amenities = Amenities.reduce((obj, item) => {
-                        obj[item] = 0;
+                        obj[item] = false;
                         return obj
                     }, {});
 
@@ -60,13 +60,20 @@ class TrivagoProvider extends Component {
     }
 
     handleChange = event => {
+        //event.preventDefault();
         const target = event.target;
-        const value = target.value === 'checkbox' ? target.checked : target.value;
         const name = target.name;
-        this.setState({ [name]: value }, this.filterData);
+        if (target.type === 'checkbox') {
+            let Amenities = { ...this.state.Amenities }
+            Amenities[name] = !this.state.Amenities[name];
+
+            this.setState({ Amenities }, () => this.filterData(name));
+        } else {
+            this.setState({ [name]: target.value }, () => this.filterData(name));
+        }
     }
 
-    filterData = () => {
+    filterData = (name) => {
         const {
             Hotels,
             DistanceToVenu,
@@ -77,28 +84,41 @@ class TrivagoProvider extends Component {
         } = this.state;
         let filterHotel = [...Hotels];
         if (DistanceToVenu !== 0) {
-            filterHotel = filterHotel.filter(hotel => hotel.distance_to_venue < DistanceToVenu);
+            filterHotel = filterHotel.filter(hotel => hotel.distance_to_venue <= DistanceToVenu);
         }
 
         if (Rating !== 0) {
-            filterHotel = filterHotel.filter(hotel => hotel.rating < Rating);
+            filterHotel = filterHotel.filter(hotel => Math.floor(hotel.rating) === Math.floor(Rating));
         }
 
-        if (PriceCategory !== 0) {
-
+        if (PriceCategory !== '') {
             filterHotel = filterHotel.filter(hotel => hotel.price_category === PriceCategory);
         }
 
         if (Price !== 0) {
-            filterHotel = filterHotel.map(hotel => hotel.rooms.filter(price => Price < price));
+            filterHotel = filterHotel.filter(hotel => (hotel.rooms.map(Rprice => Rprice.price_in_usd <= Price).includes(true)));
+        }
+
+        if (Amenities[name]) {
+            filterHotel = filterHotel.filter(hotel => (hotel.amenities.map(amenity => amenity === name)).includes(true));
+        }
+        for (let key in Amenities) {
+            filterHotel.filter(hotel => (hotel.amenities.map(amenity => amenity === key)).includes(true));
         }
 
         this.setState({ SortedHotels: filterHotel });
     }
 
+    getHotel = id => {
+        let tempHotel = [...this.state.Hotels];
+        let hotel = tempHotel.find(hotel => hotel.id === id);
+        hotel = hotel && { ...hotel, rooms: hotel.rooms.slice(2) };
+        return hotel;
+    }
+
     render() {
         return (
-            <TrivagoContext.Provider value={{ ...this.state, handleChange: this.handleChange }}>
+            <TrivagoContext.Provider value={{ ...this.state, getHotel: this.getHotel, handleChange: this.handleChange }}>
                 {this.props.children}
             </TrivagoContext.Provider>
         );

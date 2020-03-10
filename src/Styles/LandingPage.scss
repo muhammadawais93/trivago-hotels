@@ -4,13 +4,12 @@
     .langing {
         .landing--grids {
             display: flex;
-            justify-content: space-between;
             flex-wrap: wrap;
             margin: 20px 0;
             .landing--grid {
                 width: 30%;
                 background: $white;
-                margin: 15px;
+                margin: 20px;
                 border-radius: 5px;
                 overflow: hidden;
                 img {
@@ -29,6 +28,9 @@
                 .title {
                     color: $Pcolor;
                     margin: 10px;
+                    a {
+                        color: $Pcolor;
+                    }
 
                 }
                 .other-info {
