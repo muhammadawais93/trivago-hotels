@@ -70,11 +70,11 @@ const HotelDetail = (props) => {
                                     <div className="occupancy">Price: <span>{room.price_in_usd}$</span></div>
                                 </div>
                             ))}
-                            {MoreRooms ? 
-                                <button onClick={handlerClick}>Less Rooms</button>:
-                                <button onClick={handlerClick}>More Rooms</button>
-                            }
                         </div>
+                        {(SingleHotel.moreRoom.length > 0) && (MoreRooms ?
+                            <button onClick={handlerClick}>Less Rooms</button> :
+                            <button onClick={handlerClick}>More Rooms</button>
+                        )}
                     </div>
                 </section>
             }

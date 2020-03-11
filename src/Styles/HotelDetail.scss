@@ -81,14 +81,15 @@
                         color: $Pcolor;
                     }
                 }
-                button {
-                    margin: 30px auto;
-                    padding: 10px 50px;
-                    border: 2px solid #ff690f;
-                    border-radius: 25px;
-                    font-size: 20px;
-                    cursor: pointer;
-                }
+            }
+            button {
+                margin: 30px auto;
+                padding: 10px 50px;
+                border: 2px solid #ff690f;
+                border-radius: 25px;
+                font-size: 20px;
+                cursor: pointer;
+                display: block;
             }
         }
     }
